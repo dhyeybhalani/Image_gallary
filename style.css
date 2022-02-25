@@ -16,20 +16,19 @@ h1 {
 	border-left: 2px solid black;
 	color: #E1D9D1;
 	background-color: black;
-	padding: 1px 1px;
-	margin: 10px 1px;
-	width: 400px;
+	padding: 10px 10px;
+	margin: 10px;
 	box-shadow: 4px 4px 5px #000000;
 }
 img {
 	width: 450px;
 	height: 300px;
 	margin: 10px;
-	transition: all 0.5s;
+	transition: all 0.75s;
 }
 
 img:hover {
 	transform: scale(1.1);
 	border: 5px solid black;
-
+	cursor: pointer;
 }
